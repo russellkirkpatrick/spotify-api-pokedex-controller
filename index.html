@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>shartify</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <script src="app.js" async defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  </head>
+  <body onload="checkLength()">
+      <div class="background">
+        <div class="poke-container">
+          <img src="Pokedex1.gif" alt="" id="red">
+          <img src="" alt="" id="album">
+          <button class="arrows" id="left" onclick="left()">L</button>
+          <button class="arrows" id="right" onclick="right()">R</button>
+          
+          <div id="screen">
+            <!-- <p class="texts" id="song">song: <span class="texts" id="span-song"></span></p>
+            <p class="texts" id="artist">artist: <span class="texts" id="span-artist"></span></p> -->
+            <ul id="list">
+              <li id="track">song: <span class="texts" id="span-song"></span></li>
+              <li id="singer">artist: <span class="texts" id="span-artist"></span></li>
+            </ul>
+          </div>
+          
+        </div>
+
+        <div class="js-container">
+          <div class="link-container">
+            <button class="link-button" onclick="giveAccess()">give access</button>
+          </div>
+    
+          <div class="call-container">
+            <button class="top-items" onclick="getApiReq()">top items</button>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+    
+    
+  </body>
+</html>
