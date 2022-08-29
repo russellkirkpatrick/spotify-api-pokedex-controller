@@ -8,7 +8,7 @@ let arr  = [];
 
 let count = 0;
 
-const redirect_uri = 'http://127.0.0.1:5501/index.html';
+const redirect_uri = 'https://russellkirkpatrick.github.io/spotify-api-pokedex-controller/';
 const authorize = 'https://accounts.spotify.com/authorize';
 const toplong = 'https://api.spotify.com/v1/me/top/tracks?time_range=long_term&limit=50&offset=0';
 const scope = 'user-modify-playback-state user-read-playback-state user-read-currently-playing user-follow-modify user-follow-read user-read-recently-played user-read-playback-position user-top-read playlist-read-collaborative playlist-modify-public playlist-read-private playlist-modify-private user-read-email user-read-private user-library-modify user-library-read';
